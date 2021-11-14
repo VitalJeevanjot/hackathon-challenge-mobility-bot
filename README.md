@@ -6,7 +6,7 @@ A bot that uses bloxmove bridge to swap token between two networks with a sure p
 - Run `yarn`
 - Use ENV file with these properties
 
-
+```
 RPC_URL_BSC = https://da
 RPC_URL_RINKEBY = https://rin
 PRIVATE_KEY=0785
@@ -16,6 +16,7 @@ RINKEBY_NETWORK_NAME=Rinkeby Test Network
 
 BSC_CHAIN_ID=97
 RINKEBY_CHAIN_ID=4
+```
 
 
 # How to run the script
