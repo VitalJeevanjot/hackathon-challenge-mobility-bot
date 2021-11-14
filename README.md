@@ -16,3 +16,14 @@ RINKEBY_NETWORK_NAME=Rinkeby Test Network
 
 BSC_CHAIN_ID=97
 RINKEBY_CHAIN_ID=4
+
+
+# How to run the script
+
+`node price_sim.js <amount> <direction>`
+- Amount: The amount of BLXM you want to transfer
+- Direction: In which direction, `1` for Rinkeby to BSC & `2` for BSC to Rinkeby
+
+e.g. `node price_sim.js 5000000000000000000 1`
+
+This will try to swap (through BloXMov bridge) your 5 BLXM tokens from Rinkeby to BSC network.
