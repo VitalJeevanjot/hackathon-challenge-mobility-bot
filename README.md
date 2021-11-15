@@ -28,3 +28,8 @@ RINKEBY_CHAIN_ID=4
 e.g. `node price_sim.js 5000000000000000000 1`
 
 This will try to swap (through BloXMov bridge) your 5 BLXM tokens from Rinkeby to BSC network.
+
+# DEX Contracts to interact
+Rinkeby https://rinkeby.etherscan.io/address/0xBd342437b0EC13DB9C70Bb45f1958362A7D9D56B#writeContract
+
+BSC testnet https://testnet.bscscan.com/address/0x2e3bD9C42af595862FB99159b780d69380847ca2#writeContract
