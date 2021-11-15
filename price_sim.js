@@ -96,10 +96,10 @@ let erc20_stable_on_rinkeby= new ethers.Contract('0x22853d67597b47Fb11c7569Ab507
 // console.log(process.argv)
 if(process.argv[2] == 'swap') {
   swap(process.argv[3], process.argv[4]);
-}
-
-if(process.argv[2] == 'status') {
+} else if(process.argv[2] == 'status') {
   status();
+} else {
+  swap(process.argv[2], process.argv[3])
 }
 // [2] = amount of blxm to send
 // [3] = in which direction to send
